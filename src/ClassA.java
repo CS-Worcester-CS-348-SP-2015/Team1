@@ -21,15 +21,13 @@ public class ClassA {
 	private int a;
 	private int b;
 	private int y;
-	private int z;
-	private int c;
+	private int z;	
 	
-	
-	public int getC(int c){
-		return c;
+	public int getA(int a){
+		return a;
 	}
 	
-	public void setC(int c){
-		this.c = c;
+	public void setA(int a){
+		this.a = a;
 	}
 }

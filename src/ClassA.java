@@ -23,8 +23,13 @@ public class ClassA
 	private int y;
 	private int z;
 	private int c;
-	public void setc(int c)
+	public void setC(int c)
 	{
 		this.c = c;
+	}
+	
+	public int getC()
+	{
+		return c;
 	}
 }

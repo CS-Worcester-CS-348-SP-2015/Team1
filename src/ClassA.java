@@ -16,11 +16,15 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
 */
 
-public class ClassA {
-	
+public class ClassA 
+{	
 	private int a;
 	private int b;
 	private int y;
 	private int z;
-
+	private int c;
+	public void setc(int c)
+	{
+		this.c = c;
+	}
 }

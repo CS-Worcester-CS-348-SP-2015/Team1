@@ -21,6 +21,13 @@ public class ClassA {
 	private int a;
 	private int b;
 	private int y;
-	private int z;
-
+	private int z;	
+	
+	public int getA(int a){
+		return a;
+	}
+	
+	public void setA(int a){
+		this.a = a;
+	}
 }

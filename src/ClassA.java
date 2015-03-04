@@ -22,5 +22,21 @@ public class ClassA {
 	private int b;
 	private int y;
 	private int z;
-
+	private int x;
+	
+	public int getA(int a){
+		return a;
+	}
+	
+	public void setA(int a){
+		this.a = a;
+	}
+	
+	public int getX(int x){
+		return x;
+	}
+	
+	public void setX(int x){
+		this.x = x;
+	}
 }

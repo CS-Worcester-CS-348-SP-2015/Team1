@@ -24,7 +24,7 @@ public class ClassA {
 	private int z;
 
 public void setB (int b){
-	this.setB = b; 
+	this.b = b; 
 }
 public int getB (int b){
 	return b;

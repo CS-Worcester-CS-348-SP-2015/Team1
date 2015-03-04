@@ -33,6 +33,16 @@ public class ClassA
 		return c;
 	}
 	
+	public void setZ(int z)
+	{
+		this.z = z;
+	}
+	
+	public int getZ()
+	{
+		return z;
+	}
+	
 	public String toString()
 	{
 		return Integer.toString(c);

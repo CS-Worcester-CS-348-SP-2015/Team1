@@ -32,4 +32,9 @@ public class ClassA
 	{
 		return c;
 	}
+	
+	public String toString()
+	{
+		return Integer.toString(c);
+	}
 }

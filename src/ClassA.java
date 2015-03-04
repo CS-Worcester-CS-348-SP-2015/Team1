@@ -16,12 +16,13 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
 */
 
-public class ClassA {
-	
+public class ClassA 
+{	
 	private int a;
 	private int b;
 	private int y;
 	private int z;
+<<<<<<< HEAD
 	private int x;
 	
 	public int getA(int a){
@@ -40,3 +41,31 @@ public class ClassA {
 		this.x = x;
 	}
 }
+=======
+	private int c;
+	public void setC(int c)
+	{
+		this.c = c;
+	}
+	
+	public int getC()
+	{
+		return c;
+	}
+	
+	public void setZ(int z)
+	{
+		this.z = z;
+	}
+	
+	public int getZ()
+	{
+		return z;
+	}
+	
+	public String toString()
+	{
+		return Integer.toString(c);
+	}
+}
+>>>>>>> eea6b8dd843240b2dd03faaa4d1e37097834b5a9
